@@ -1,0 +1,39 @@
+@import '../common/common.module.scss';
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  &__brand {
+    text-decoration: none;
+    color: $col-blue;
+    font-size: 3rem;
+    font-weight: 700;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  &__nav {
+    display: flex;
+    align-items: center;
+    &__list {
+      display: flex;
+      &__item {
+        list-style: none;
+        font-size: 2rem;
+        &:not(:first-child) {
+          margin-left: 2rem;
+        }
+        &__text {
+          text-decoration: none;
+          color: $col-blue;
+          &:hover {
+            cursor: pointer;
+          }
+          &__isActive {
+            color: $col-orange;
+          }
+        }
+      }
+    }
+  }
+}
