@@ -1,0 +1,18 @@
+@import '../common.module.scss';
+.input {
+  appearance: none;
+  padding-left: 0.5rem;
+  margin: 5px 0;
+  background-color: transparent;
+  border: 1px solid;
+  border-color: rgba($color: $col-orange, $alpha: 0.5);
+  font-family: inherit;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  cursor: inherit;
+  color: $col-white;
+  cursor: pointer;
+  &:focus-visible {
+    outline: none;
+  }
+}

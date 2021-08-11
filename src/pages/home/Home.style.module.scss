@@ -1,0 +1,30 @@
+@import '../../components/common/common.module.scss';
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__search {
+    display: grid;
+    grid-template-rows: [row-line1] auto [row-line2] auto [row-line3] auto;
+    row-gap: 2rem;
+    &__heading {
+      grid-row: row-line1 / row-line2;
+      margin-top: 5rem;
+
+      &__text1 {
+        font-size: 2.75rem;
+        text-align: center;
+      }
+      &__text2 {
+        font-size: 1.75rem;
+        margin-top: 2rem;
+        text-align: center;
+        padding: 0 1.5rem;
+      }
+    }
+    &__form {
+      grid-row: row-line2 / row-line3;
+
+    }
+  }
+}

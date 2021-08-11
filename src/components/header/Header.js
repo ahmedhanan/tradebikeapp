@@ -5,7 +5,7 @@ import { ROUTE } from '../../routes';
 function Header() {
   return (
     <header className={styles.main}>
-      <NavLink to={ROUTE.HOME} className={styles.main__brand}>
+      <NavLink to={ROUTE.HOME} className={`${styles.main__brand} ${styles.brand}`}>
         🚲 tradebike.app
       </NavLink>
       <nav className={styles.main__nav}>

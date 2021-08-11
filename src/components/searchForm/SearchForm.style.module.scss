@@ -1,0 +1,10 @@
+@import '../common/common.module.scss';
+.searchform {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1rem;
+  padding: 3rem 2rem;
+  background-color: $col-blue;
+  color: $col-white;
+  border-radius: 10px;
+}

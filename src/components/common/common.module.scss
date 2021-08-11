@@ -1,3 +1,8 @@
 $col-blue: #04009a;
 $col-white: #fafafa;
-$col-orange: #F6490D;
+$col-orange: #f6490d;
+
+.brand {
+  color: $col-orange;
+  cursor: pointer;
+}

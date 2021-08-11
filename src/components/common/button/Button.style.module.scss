@@ -1,0 +1,16 @@
+@import '../common.module.scss';
+.button {
+  appearance: none;
+  background-color: $col-blue;
+  color: $col-white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 1rem 1.5rem;
+  border: 1px solid $col-orange;
+  margin: 5px 0;
+  &:hover {
+    cursor: pointer;
+    background-color: $col-white;
+    color: $col-orange;
+  }
+}
